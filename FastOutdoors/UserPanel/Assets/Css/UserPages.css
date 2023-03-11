@@ -1,0 +1,503 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.BlogPagesContainer {
+}
+
+    .BlogPagesContainer .row {
+        margin-top: 20px;
+        margin-left: 25px;
+        text-align: center;
+        float: left;
+    }
+
+        .BlogPagesContainer .row h2 {
+            position: absolute;
+            font-size: 25px;
+            color: white;
+            margin-top: 85px;
+            margin-left: 95px;
+        }
+
+
+
+    .BlogPagesContainer .images img {
+        border-bottom: 3px solid red;
+        width: 365px;
+        border-radius: 15px;
+        float: left;
+    }
+
+    .BlogPagesContainer .images .contentLink {
+        margin-left: 15px;
+        text-decoration: none;
+        font-size: 10pt;
+        color: black;
+        background-color: whitesmoke;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+        .BlogPagesContainer .images .contentLink:hover {
+            color: whitesmoke;
+            background-color: #000000;
+        }
+
+.ParagraphDetail .imgDetails {
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+    margin-left: 250px;
+    border-radius: 50px;
+    border-bottom: 3px solid red;
+}
+
+.ParagraphDetail .views {
+    margin-left: 90px;
+    padding: 10px;
+    float: left;
+}
+
+.ParagraphDetail .dateTime {
+    padding: 10px;
+    float: left;
+}
+
+.ParagraphDetail .title {
+    margin: 20px;
+    text-align: center;
+}
+
+.ParagraphDetail .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 16pt;
+    color: whitesmoke;
+    word-spacing: 5px;
+}
+
+.formPage {
+}
+
+    .formPage .Header {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin-top: 15px;
+        padding: 8px;
+        background-color: #333334;
+        color: whitesmoke;
+    }
+
+        .formPage .Header i {
+            color: #d4a248;
+            margin: 10px;
+        }
+
+        .formPage .Header span {
+            font-weight: 900;
+            font-size: 16pt;
+        }
+
+        .formPage .Header h4 {
+            margin-bottom: 6px;
+        }
+
+        .formPage .Header .commentAddBtn {
+            text-decoration: none;
+            margin-left: 50px;
+            background-color: #9F9E9E;
+            color: whitesmoke;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+            .formPage .Header .commentAddBtn:hover {
+                color: #333334;
+            }
+
+    .formPage .row {
+        margin-top: 15px;
+        background-color: #808080;
+        height: 55px;
+    }
+
+        .formPage .row .Category {
+            float: left;
+            padding: 5px;
+            color: #75288b;
+        }
+
+            .formPage .row .Category i {
+                color: #d4a248;
+                padding-right: 5px;
+            }
+
+            .formPage .row .Category .memberName {
+                padding: 5px;
+                color: #c8c1c1;
+            }
+
+        .formPage .row .title {
+            padding: 3px;
+            float: left;
+            overflow-wrap: break-word;
+            max-width: 560px;
+        }
+
+        .formPage .row .ContentLink {
+            padding-top: 15px;
+            color: whitesmoke;
+            font-weight: 900;
+            font-size: 15pt;
+            float: right;
+            margin-right: 150px;
+        }
+
+            .formPage .row .ContentLink a {
+                text-decoration: none;
+                padding-top: 15px;
+                color: #d0c7c7;
+                border-bottom: 1px solid #6c6c6f;
+                border-radius: 3px;
+            }
+
+                .formPage .row .ContentLink a:hover {
+                    color: #333334;
+                }
+
+        .formPage .row .views {
+            float: right;
+            padding: 8px;
+        }
+
+            .formPage .row .views i {
+                padding-right: 7px;
+            }
+
+.FormPageNoEntry {
+    height: 450px;
+}
+
+    .FormPageNoEntry .Container {
+        padding-top: 30px;
+        background-color: #413e3e;
+        height: 70px;
+        text-align: center;
+        margin-top: 150px;
+        border-radius: 10px;
+    }
+
+        .FormPageNoEntry .Container a {
+            text-decoration: none;
+            color: #a09696;
+        }
+
+            .FormPageNoEntry .Container a:hover {
+                color: #d0c7c7;
+            }
+
+.FormRead {
+}
+
+    .FormRead .question {
+        margin-top: 25px;
+    }
+
+        .FormRead .question i {
+            font-size: 30pt;
+            padding: 10px;
+            color: whitesmoke;
+        }
+
+        .FormRead .question span {
+            font-size: 25pt;
+            font-family: 'Luckiest Guy', cursive;
+        }
+
+        .FormRead .question .title {
+            padding-left: 10px;
+            font-weight: 900;
+            font-size: 15pt;
+        }
+
+    .FormRead .row {
+        margin-top: 25px;
+        background-color: #908B8B;
+        border: 1px solid black;
+        min-height: 200px;
+    }
+
+        .FormRead .row .dateTime {
+            padding: 10px;
+            background-color: #333334;
+            color: #6c6c6f;
+        }
+
+        .FormRead .row .content {
+            padding: 8px;
+            max-width: 860px;
+            overflow-wrap: break-word;
+        }
+
+    .FormRead .img .imgDetails {
+        width: 283px;
+    }
+
+.AnswerAdd .row {
+    padding: 10px;
+}
+
+    .AnswerAdd .row .textbox {
+        padding: 10px;
+        background-color: #9F9E9E;
+        width: 1171px;
+        border: none;
+        border-bottom: 3px solid silver;
+        color: #444444;
+        margin-bottom: 7px;
+        outline:none;
+    }
+
+.AnswerAdd .addAnswerBtn {
+    padding: 10px;
+    background-color: #333334;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.ComplaintSuggestionPage {
+    width: 1200px;
+    height: 500px;
+}
+
+.complaintSuggestionList .Table td {
+    max-width: 800px;
+    overflow-wrap: break-word;
+}
+
+.ComplaintSuggestionPage .Container {
+    margin-top: 55px;
+    text-align: center;
+}
+
+    .ComplaintSuggestionPage .Container .row .textbox {
+        width: 550px;
+        height: 250px;
+        color: #808080;
+        padding: 10px;
+    }
+
+    .ComplaintSuggestionPage .Container .pnlSucces {
+        background-color: #333334;
+        color: #d0c7c7;
+        width: 562px;
+        margin-right: auto;
+        margin-left: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 5px;
+    }
+
+    .ComplaintSuggestionPage .Container .pnlEror {
+        background-color: #9b1717;
+        color: whitesmoke;
+        width: 562px;
+        margin-right: auto;
+        margin-left: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 5px;
+    }
+
+    .ComplaintSuggestionPage .Container .sendBtn {
+        background-color: #3a55f6;
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: 542px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 15px;
+        border-radius: 3px;
+        font-family: ArialCalibri;
+        font-size: 15pt;
+    }
+
+        .ComplaintSuggestionPage .Container .sendBtn:hover {
+            background-color: #2c40bb;
+        }
+
+.CommentAddContainer {
+    height: 600px;
+}
+
+    .CommentAddContainer .rightMain {
+        float: left;
+        width: 570px;
+        border: 1px solid #c8c1c1;
+        height: 450px;
+        margin-top: 25px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .CommentAddContainer .leftMain {
+        margin-top: 25px;
+        float: left;
+        width: 570px;
+        border: 1px solid #c8c1c1;
+        height: 450px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        padding-left: 15px;
+    }
+
+        .CommentAddContainer .leftMain .row {
+            margin-bottom: 20px;
+        }
+
+    .CommentAddContainer .CommentAddContainerTitle {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Prompt', sans-serif;
+        margin-top: 25px;
+    }
+
+    .CommentAddContainer .leftMain h1 {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .CommentAddContainer .leftMain .row .dllCategory {
+        background-color: silver;
+        font-size: 13pt;
+        border-radius: 5px;
+        color: #333334;
+        border: none;
+    }
+
+    .CommentAddContainer .leftMain .row .inputBox {
+        margin-top: 5px;
+        width: 450px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: silver;
+        border: none;
+        color: #6c6c6f;
+        padding: 5px;
+    }
+
+    .CommentAddContainer .leftMain .row .fuImgAdd {
+        background-color: silver;
+        font-size: 13pt;
+        border-radius: 5px;
+        color: #333334;
+        border: none;
+        width: 245px;
+    }
+
+    .CommentAddContainer .rightMain .row {
+        margin-left: 20px;
+    }
+
+    .CommentAddContainer h3 {
+        text-align: center;
+        margin: 15px;
+        font-size: 15pt;
+    }
+
+    .CommentAddContainer .rightMain .row .contentInputBox {
+        width: 520px;
+        height: 270px;
+        background-color: silver;
+        border-radius: 7px;
+        color: #6c6c6f;
+        padding: 7px;
+    }
+
+    .CommentAddContainer .rightMain .row .commentBtn {
+        text-decoration: none;
+        display: block;
+        width: 507px;
+        text-align: center;
+        background-color: #1569b5;
+        color: whitesmoke;
+        font-weight: 900;
+        padding: 15px;
+        border-radius: 5px;
+        border: none;
+    }
+
+        .CommentAddContainer .rightMain .row .commentBtn:hover {
+            background-color: #1569b5;
+        }
+
+    .CommentAddContainer .rightMain .pnlSuccessful {
+        text-align: center;
+        padding: 5px;
+        background-color: #333334;
+        width: 523px;
+        margin-left: 21px;
+        border-radius: 5px;
+        font-weight: 900;
+        color: whitesmoke;
+    }
+
+    .CommentAddContainer .rightMain .pnlEror {
+        text-align: center;
+        padding: 5px;
+        background-color: #333334;
+        width: 523px;
+        margin-left: 21px;
+        border-radius: 5px;
+        font-weight: 900;
+        color: whitesmoke;
+    }
+
+.answerContainer .answertitle {
+    padding: 5px;
+    text-align: center;
+    margin-top: 35px;
+    background-color: #d7d6d6;
+}
+
+.answerContainer .AnswerTable {
+    margin: 10px;
+    width: 1170px;
+}
+
+    .answerContainer .AnswerTable td {
+        padding-left: 10px;
+        border-bottom: 1px solid #333334;
+    }
+
+
+    .answerContainer .AnswerTable tbody td:first-child {
+        color: #333334;
+        font-weight: 900;
+    }
+
+    .answerContainer .AnswerTable tbody td:nth-child(2) {
+        width: 800px;
+        padding-left: 50px;
+        max-width: 800px;
+        overflow-wrap: break-word;
+        padding: 10px;
+        color: #d9d5d5;
+    }
+
+    .answerContainer .AnswerTable tbody td:last-child {
+        padding-left: 100px;
+    }
+
+        .answerContainer .AnswerTable tbody td:last-child i {
+            font-weight: 900;
+            padding: 5px;
+        }

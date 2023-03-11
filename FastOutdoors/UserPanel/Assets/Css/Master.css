@@ -1,0 +1,219 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.userPanelContainer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #9F9E9E;
+}
+
+.header {
+    height: 60px;
+    background-color: #333334;
+    border-bottom: 2px solid red;
+}
+
+    .header img {
+        width: 47px;
+        padding: 5px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .header h1 {
+        text-align: center;
+        padding-top: 10px;
+        color: whitesmoke;
+        font-family: 'Gruppo', cursive;
+    }
+
+    .header .SocilBar {
+        float: right;
+        margin-top: -20px;
+        padding: 10px;
+    }
+
+        .header .SocilBar a img {
+            width: 25px;
+            margin-top: -16px;
+        }
+
+            .header .SocilBar a img:hover {
+                opacity: 0.7;
+            }
+
+.topMenu {
+    height: 40px;
+    background-color: #908b8b;
+}
+
+    .topMenu .content {
+        float: left;
+    }
+
+        .topMenu .content li {
+            float: left;
+            margin-left: 30px;
+            margin-top: 7px;
+            list-style-type: none;
+            font-size: 14pt;
+        }
+
+        .topMenu .content a {
+            padding-bottom: 10px;
+        }
+
+            .topMenu .content a:hover {
+                color: #000000;
+                border-bottom: 3px solid #000000;
+            }
+
+        .topMenu .content a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+    .topMenu .buttons {
+        padding: 5px;
+        float: right;
+        margin-right: 5px;
+    }
+
+        .topMenu .buttons a {
+            font-weight: 900;
+            text-decoration: none;
+            color: #333334;
+            padding: 5px;
+            background-color: whitesmoke;
+            border-radius: 7px;
+            font-family: Calibri;
+        }
+
+        .topMenu .buttons i {
+            padding: 7px;
+            color: blue;
+        }
+
+        .topMenu .buttons a:hover {
+            color: whitesmoke;
+            background: #333334;
+        }
+
+        .topMenu .buttons i:hover {
+            color: whitesmoke;
+        }
+
+    .topMenu .userInfo {
+        float: right;
+        margin: 10px;
+    }
+
+        .topMenu .userInfo .exitBtn {
+            padding: 7px;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+            font-weight: 900;
+            margin-left: 15px;
+        }
+
+            .topMenu .userInfo .exitBtn:hover {
+                background-color: black;
+                color: whitesmoke;
+            }
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    background-color: #211f1f;
+}
+
+    .footer .main {
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .footer .main .aboutUs {
+            width: 500px;
+            padding: 32px;
+            float: left;
+        }
+
+            .footer .main .aboutUs p {
+                color: #716e6e;
+            }
+
+            .footer .main .aboutUs h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: whitesmoke;
+            }
+
+        .footer .main .social {
+            float: left;
+            padding-top: 20px;
+            width: 400px;
+        }
+
+            .footer .main .social a {
+                text-decoration: none;
+            }
+
+            .footer .main .social span {
+                color: #716e6e;
+                margin-left: 20px;
+            }
+
+            .footer .main .social h2 {
+                text-align: center;
+                color: whitesmoke;
+            }
+
+            .footer .main .social img {
+                width: 40px;
+                margin-left: 25px;
+                border: 1px solid white;
+                border-radius: 50%;
+            }
+
+            .footer .main .social li {
+                padding: 10px;
+                list-style: none;
+            }
+
+        .footer .main .cotanct {
+            width: 400px;
+            float: left;
+            margin-top: 20px;
+        }
+
+            .footer .main .cotanct i {
+                color: white;
+                font-size: 30px;
+            }
+
+            .footer .main .cotanct h2 {
+                color: whitesmoke;
+                text-align: center;
+            }
+
+            .footer .main .cotanct span {
+                margin-left: 50px;
+                color: #716e6e;
+            }
+
+            .footer .main .cotanct .row {
+                margin-top: 35px;
+            }
+
+            .footer .main .cotanct .dateTime {
+            }
